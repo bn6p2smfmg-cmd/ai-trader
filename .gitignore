@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.bak2
+*.bak3
+*.bak4
+*.bak5
+secrets.toml
