@@ -19,7 +19,7 @@ def get_position(symbol):
     except Exception:
         return None
 
-def main(symbol="SPY"):
+def main(symbol="GLD"):
     c = load(symbol, period="6mo")
     sma50 = c.rolling(50).mean()
     price = float(c.iloc[-1])
